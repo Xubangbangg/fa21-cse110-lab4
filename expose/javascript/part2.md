@@ -31,15 +31,15 @@ console.log(student.courseload[0]);
 
 * q14:
     1. true string '2' becomes number 2
-    2. false ??? number 2 < 12
+    2. false When comparing two strings, it will compare the first char, and then second, and so on. At this case, 2 is greater than 1, so it should be a '>' sign, so it's false.
     3. true  number 2 == 2
     4. false triple equal will compare the type first
     5. false true is 1, 1 not equal to 2
     6. true Since Boolean(2) has a number, boolean(2) will return true, it will pass the triple equal check
 
 * q15: 
-  * * '==' means equality, if variable types are different, it should first change the type and then compare.
-  * * '===' means identity, if the variable types are different, then they are definitely different. 
+  * '==' means equality, if variable types are different, it should first change the type and then compare.
+  * '===' means identity, if the variable types are different, then they are definitely different. 
 
 
 * q17: The result will be [2,4,6], in the for loop, the arr element will do the doSomething function, which will double the number, and push back to the newArr. 
